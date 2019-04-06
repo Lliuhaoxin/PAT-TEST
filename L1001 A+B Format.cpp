@@ -15,3 +15,6 @@ int main()
     }
     cout << endl;
 }
+
+// a,b=list(map(int,input().split()))
+// print(format(a+b,','))
