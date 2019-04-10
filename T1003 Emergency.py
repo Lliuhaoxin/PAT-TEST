@@ -41,3 +41,5 @@ if __name__ == "__main__":
         visted[index] = 1
         x = index
     print(num[c2], power[c2])
+
+    
