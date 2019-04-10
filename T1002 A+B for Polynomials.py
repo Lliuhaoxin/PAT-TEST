@@ -26,3 +26,5 @@ if __name__ == "__main__":
             num = num +1
             result = result + str(x) + " " + '{:.1f}'.format(out[x]) + " "
     print(str(num)+result[:-1])
+
+    
