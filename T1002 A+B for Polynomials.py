@@ -14,11 +14,10 @@ if __name__ == "__main__":
     for x in c:
         if x in a and x in b:
             out[x] = first[x] + second[x]
+        elif x in a:
+            out[x] = first[x]
         else:
-            if x in a:
-                out[x] = first[x]
-            else:
-                out[x] = second[x]
+            out[x] = second[x]
     result = " "
     num = 0
     for x in c:
